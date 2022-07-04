@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="static/assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="static/assets/css/untitled.css">
+</head>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#page-top">Roobarb</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Projects</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center text-white bg-primary masthead">
+        <div class="container"><img class="img-fluid d-block mx-auto mb-5" src="static/assets/img/profile.png">
+            <h1>ROOBARB EXPERIMENTS</h1>
+            <hr class="star-light">
+            <h2 class="font-weight-light mb-0"></h2>
+        </div>
+    </header>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary">Projects</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="/experiments?experiment=1">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="static/assets/img/portfolio/E1.png">
+                    </a>
+                    <p class="lead">Experiment 1</p>
+                </div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="/experiments?experiment=2">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="static/assets/img/portfolio/E2.png" width="500" height="300">
+                    </a>
+                    <p class="lead">Experiment 2</p>
+                </div>
+                <div class="col-md-6 col-lg-4 offset-xl-0"><a class="d-block mx-auto portfolio-item" href="/experiments?experiment=3">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="static/assets/img/portfolio/E3.png">
+                    </a>
+                    <p class="lead">Experiment 3</p>
+                </div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="/experiments?experiment=4">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="static/assets/img/portfolio/E4.png">
+                    </a>
+                    <p class="lead">Experiment 4</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-white bg-primary mb-0" id="about">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-white">Opengl - Webgl - learning</h2>
+            <hr class="star-light mb-5">
+            <div class="row">
+                <div class="col-lg-4 ms-auto">
+                    <p class="lead">The purpose of these tests is to get a better understanding of OpenGL/WebGL/C++/Emscripten. The end goal is to create a multiplayer Minecraft clone.</p>
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <p class="lead">These projects are just examples and tutorial examples that I've been working on. If you'd like to learn more about OpenGL go to:<br><br>https://learnopengl.com/<br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center footer"></footer>
+    <div class="text-center text-white copyright py-4">
+        <div class="container"><small>Copyright ©&nbsp;Roobarb 2021</small></div><div>    
+<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script>
+        $.getJSON("https://api.ipify.org?format=json",
+                                          function(data) {
+  
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", 'https://roobarb.codes/ip', true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.send(JSON.stringify({
+                value: data.ip
+            }));
+        })
+    </script>
+</div>
+    </div>
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="text-center d-block rounded text-white" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+    <script src="static/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/assets/js/freelancer.js"></script>
+</body>
+
+</html>

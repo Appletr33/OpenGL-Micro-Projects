@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="static/assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="static/assets/css/untitled.css">
+</head>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#page-top">Roobarb</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center text-white bg-primary masthead">
+        <div class="container"><div>
+<canvas id="canvas"></canvas>
+<script type="text/javascript">
+  var canvas = document.getElementById("canvas");
+  var Module = {
+    canvas
+  };
+</script>
+
+<script>
+var script = document.createElement('script');
+var number = window.location.search.substring(12);
+if (number == "1") {
+  script.src = "static/" + number + "/OpenGLearning.js"
+}
+else if (number == "2") {
+  script.src = "static/" + number + "/OpenGLearningroobarb.js"
+
+}
+else if (number == "4") {
+  script.src = "static/" + number + "/OpenGLearning1.js"
+
+}
+else {
+  script.src = "static/" + number + "/OpenGLearning.js"
+}
+document.body.appendChild(script);
+</script>
+
+</div></div>
+    </header>
+    <footer class="text-center footer"></footer>
+    <div class="text-center text-white copyright py-4">
+        <div class="container"><small>Copyright ©&nbsp;Roobarb 2021</small></div>
+    </div>
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="text-center d-block rounded text-white" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+    <script src="static/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/assets/js/freelancer.js"></script>
+</body>
+
+</html>
